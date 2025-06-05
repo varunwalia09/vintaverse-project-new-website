@@ -1,0 +1,31 @@
+.navbar {
+  width: 100vw;            /* Full screen width */
+background-color: rgba(12, 14, 146, 0.6); /* 0.6 = 60% opacity */
+  padding: 15px 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: fixed;  
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Sabse upar rahe */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;  /* Links right side pe */
+  gap: 35px;                  /* Links ke beech space */
+  max-width: 1200px;          /* Optional: container max width */
+  margin: 0 auto;             /* Center container horizontally */
+  align-items: center;
+  font-size: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #0070f3;
+}
