@@ -42,8 +42,8 @@ const Footer = () => {
           className="footer-logo"
         />
         <div className="vintaverse">
-          <h1>VintaVerse</h1>
-          <p>© copyright</p>
+          <h1>All Right Reserved</h1>
+          <p>© copyright 2025</p>
         </div>
       </div>
 

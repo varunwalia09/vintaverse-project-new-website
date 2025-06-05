@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 450px;
+  height: 330px;
   background-color:#152292;
   display: flex;
   color: rgb(255, 255, 255);
@@ -32,10 +32,10 @@
 .footer-left::before {
   content: '';
   position: absolute;
-     top: 110px;
+     top: 82px;
     left: -48px;
-    width: 79px;
-    height: 81%;
+    width: 57px;
+    height: 80%;
   background: rgb(255, 255, 255);
   border-top-right-radius: 120px;
   border-bottom-right-radius: 120px;
@@ -48,11 +48,11 @@
 }
 
 .footer-logo {
-  width: 300px;
+  width: 150px;
   height: 100px;
   object-fit: contain;
   margin-bottom: 9rem;
-  margin-left: 30%;
+  margin-left: 40%;
   
 }
 
@@ -78,8 +78,8 @@
 .footer-sections {
   display: flex;
   gap: 5rem;
-  margin-left: 12%;
-    font-size: 30px
+  margin-left: 2%;
+    font-size: 20px
 }
 
 /* Each section */
@@ -109,7 +109,7 @@
   max-width: 220px;
   display: flex;
   flex-direction: column;
-  margin-right: 22%;
+  margin-right: 15%;
 }
 
 .newsletter-form {
@@ -122,12 +122,12 @@
   padding: 0.4rem 0.6rem;
   /* border: none; */
   /* border-radius: 4px 0 0 4px; */
-  font-size: 2rem;
+  /* font-size: 20px; */
    text-decoration: underline;
 }
 
 .newsletter-form button {
-  padding: 0.4rem 1rem;
+  padding: 0.2rem 1rem;
   border-radius: 10%;
   border: 1px solid rgb(0, 0, 0);
   background-color: #ffffff;
@@ -135,8 +135,9 @@
   cursor: pointer;
   /* border-radius: 0 4px 4px 0; */
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   transition: background-color 0.3s ease;
+  margin-left: -10px;
  
 }
 
@@ -152,12 +153,12 @@
   gap: 1rem;
 }
 .social-icons a svg {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .social-icons a {
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
@@ -167,7 +168,7 @@
 
 /* Headings */
 .footer-heading {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 700;
   margin: 0;
   position: relative;
@@ -188,22 +189,25 @@
   border-radius: 2px;
 }
 .vintaverse {
-  left: 240%;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin: 0;
-  z-index: 1000; 
-   bottom: -50px; 
-  transform: translateX(-80%);
+  align-items: center;
+  gap: 1rem;
+  white-space: nowrap;
+  z-index: 1000;
 }
 
+
 .vintaverse h1 {
-  font-size: 2rem;
+  font-size: 20px;
   margin-left: 0;
   font-weight: 900;
   line-height: 1;
-  color: orangered;  /* ya jo color chahiye */
+  color: orangered; 
 }
 
 .vintaverse p {

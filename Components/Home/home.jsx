@@ -42,11 +42,7 @@ export default function Home() {
             "PhotoShop",
           ]}
         />
-        <Card
-          frontText="Web Designer"
-          description="Modern and responsive web layouts."
-          skills={["HTML", "CSS", "JavaScript", "Responsive Design"]}
-        />
+        
         <Card
           frontText="Front-End Developer"
           description="Interactive UIs using modern frameworks."
