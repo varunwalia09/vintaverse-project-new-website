@@ -1,5 +1,7 @@
 import './globals.css';
-import Navbar from '../components/Navbar/Navbar'; // Thanks to index.js
+import Navbar from '@/components/Navbar/Navbar'; // Thanks to index.js
+
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: 'My Next App',
@@ -12,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
