@@ -1,5 +1,5 @@
 import './globals.css';
-import Navbar from '../Components/Navbar/Navbar'; // Thanks to index.js
+import Navbar from '../components/Navbar/Navbar'; // Thanks to index.js
 
 export const metadata = {
   title: 'My Next App',

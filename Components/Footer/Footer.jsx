@@ -1,10 +1,10 @@
-'use client'; // Optional if using with app router client component
+'use client'; 
 
 import React from 'react';
 import Link from 'next/link';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
-import './Footer.css'; // Ensure this file exists and is allowed in your setup
+import './Footer.css'; 
 
 const Section = ({ title, items }) => (
   <div className="footer-section">
