@@ -5,7 +5,6 @@ import { createNoise3D } from "simplex-noise";
 import { cn } from "@/components/Home/utils";
 
 
-
 const VantaBackground = ({
   children,
   className,
