@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { createNoise3D } from "simplex-noise";
-import { cn } from "@/components/home/utils";
+import { cn } from "@/components/Home/utils";
 
 
 
