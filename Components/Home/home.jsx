@@ -1,7 +1,7 @@
 'use client'
 import VantaBackground from "./ParticlesBackground";
 import Description from "./Description";
-import Intro from "./INtro";
+import Intro from "./Intro";
 import Marquee from "./Marquee";
 import Card from "./Card";
 import Section from "./Section";
